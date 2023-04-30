@@ -60,14 +60,7 @@ header, footer {
     cursor: pointer;
 }
 
-/* Footer */
-.footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    color: #fff;
-}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -131,3 +124,10 @@ header, footer {
     text-align: center;
     padding-top: 10%;
   }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
