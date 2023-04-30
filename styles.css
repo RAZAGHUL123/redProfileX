@@ -71,9 +71,12 @@ header, footer {
         display: block;
     }
 
+    /* Updated Flexbox styles for the responsive nav-list */
     .nav-list.open {
         display: flex;
         flex-direction: column;
+        align-items: center; /* Center items in the container */
+        justify-content: space-around; /* Distribute space evenly between items */
         position: absolute;
         top: 60px;
         left: 0;
