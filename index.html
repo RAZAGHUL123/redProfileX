@@ -44,9 +44,11 @@
         <!-- Video background -->
         <div class="video-background">
             <div class="video-overlay"></div>
-            <video autoplay muted id="myVideo">
-              <source src="AFTERHR.mp4" type="video/mp4">
+            <video autoplay muted loop playsinline id="myVideo">
+                <source src="AFTERHR.mp4" type="video/mp4">
             </video>
+        </div>
+        
         <!-- Your main content goes here -->
         
     </main>
@@ -60,5 +62,12 @@
             <p>© 2023 Company Name. All Rights Reserved.</p>
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var video = document.getElementById("myVideo");
+            video.playbackRate = 0.5; // Set the desired playback rate (0.5 is 50% of the normal speed)
+        });
+    </script>
+    
 </body>
 </html>
