@@ -239,7 +239,7 @@ blockquote {
     color: #fff;
     text-align: center;
     padding-top: 10%;
-    min-height: 100vh; /* Add this line to set a fixed size */
+    min-height: 80vh; /* Add this line to set a fixed size */
 }
 
   .footer-container {
