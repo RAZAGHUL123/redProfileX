@@ -1,0 +1,34 @@
+#contactForm {
+    background-color: red;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#contactForm label, #contactForm input, #contactForm textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactForm label {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#contactForm input, #contactForm textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
