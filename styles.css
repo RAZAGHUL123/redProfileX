@@ -196,6 +196,42 @@ blockquote {
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+  iframe::before {
+    content: ""; /* Empty content */
+    display: block; /* Display as block element */
+    width: 10px; /* Set width to 10px */
+    height: 100%; /* Set height to 100% */
+    position: absolute; /* Position the element absolutely */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the left */
+    background-color: #9147ff; /* Set the background color */
+    border-top-left-radius: 10px; /* Set border radius for top left corner */
+    border-bottom-left-radius: 10px; /* Set border radius for bottom left corner */
+  }
+  
+    
+    /* Create a pseudo element after the iframe */
+  iframe::after {
+    /* Add content to the pseudo element */
+    content: "";
+    /* Set the display property to block */
+    display: block;
+    /* Set the width of the pseudo element */
+    width: 10px;
+    /* Set the height of the pseudo element to be 100% of the iframe height */
+    height: 100%;
+    /* Set the position of the pseudo element to be absolute */
+    position: absolute;
+    /* Set the top position of the pseudo element to be 0 */
+    top: 0;
+    /* Set the right position of the pseudo element to be 0 */
+    right: 0;
+    /* Set the background color of the pseudo element to match the iframe background color */
+    background-color: #9147ff;
+    /* Add border radius to the top-right and bottom-right corners of the pseudo element */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   
   .content {
     position: relative;
