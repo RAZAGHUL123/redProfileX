@@ -117,6 +117,26 @@ header, footer {
     transform: translate(-50%, -50%);
     z-index: -1;
   }
+  .banner {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 60px;
+  }
+  
+  .collage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .collage img {
+    width: calc(33.33% - 10px);
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
   .content {
     position: relative;
     z-index: 1;
