@@ -1,0 +1,37 @@
+.summary-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+.summary {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.summary h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.summary p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.summary a {
+    color: white;
+    text-decoration: underline;
+}
+
+.summary img {
+    display: block;
+    margin-top: 10px;
+}
