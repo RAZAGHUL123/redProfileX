@@ -88,6 +88,7 @@ header, footer {
     }
 }
 blockquote {
+    color:red;
     float:right;
     width: 275px;
     font-size: 130%;
