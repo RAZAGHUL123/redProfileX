@@ -15,12 +15,20 @@ header, footer {
     background-color: #2b2b2b;
 }
 
+/* Nav-container */
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the navbar */
 }
 
 .logo {
@@ -75,8 +83,8 @@ header, footer {
     .nav-list.open {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Center items in the container */
-        justify-content: space-around; /* Distribute space evenly between items */
+        align-items: center;
+        justify-content: space-around;
         position: absolute;
         top: 60px;
         left: 0;
